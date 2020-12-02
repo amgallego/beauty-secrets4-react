@@ -1,12 +1,10 @@
-function App (){
-    return(
-        <main>
-            <div className="container"> 
-             <div className="row">
-             </div>
-             </div>
-            </main>
-    )
+//Conceptos principales
+function App () {
+    return (
+    <>
+        <h1>Hola Mundo</h1>
+    </>    
+    );
 }
 
 export default App;
