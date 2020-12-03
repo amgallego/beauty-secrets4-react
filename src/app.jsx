@@ -1,8 +1,12 @@
-//Conceptos principales
+import Menu from "./components/Menu";
+import Fondo from "./components/Fondo"
+import Inicio from "./components/Inicio"
 function App () {
     return (
     <>
-        <h1>Hola Mundo</h1>
+    <Menu/> 
+    <Fondo/>
+    <Inicio/>
     </>    
     );
 }
