@@ -1,13 +1,13 @@
 import Menu from "./components/Menu";
 import Fondo from "./components/Fondo"
-import Inicio from "./components/Inicio"
-function App () {
+import Home from "./components/Inicio"
+function App() {
     return (
-    <>
-    <Menu/> 
-    <Fondo/>
-    <Inicio/>
-    </>    
+        <>
+            <Fondo />
+            <Menu />
+            <Home />
+        </>
     );
 }
 

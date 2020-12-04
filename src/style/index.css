@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-sizing: border-box;
+    box-sizing: border-box;
+    list-style: none;
+}
+root{
+    --dark: #1a1a1a;
+    --white: #ffffff;
+    --light-grey: #eeffee;
+    --gold: #ecd5a7;
+    --rose: #ff0080; 
+}
+body{
+    font-family: 'Raleway', sans-serif  !important;
+
+}

@@ -1,4 +1,4 @@
-import "./inicio.css";
+import "./home.css";
 import foto1 from "../../recursos/img/foto1.png"
 import foto2 from "../../recursos/img/foto2.png"
 import foto3 from "../../recursos/img/foto3.png"
@@ -7,9 +7,9 @@ import marcela from "../../recursos/img/Marcelana.png"
 import catalina from "../../recursos/img/Catalina.png"
 import keila from "../../recursos/img/keila.png"
 
-function Inicio() {
+function Home() {
     return (
-    <section>
+    <>
      <section className="py-5">
     <div className="container">
       <div className="row">
@@ -148,9 +148,9 @@ function Inicio() {
      <section className="pt-1">
       <p className="text-center">©2020 Todos los derechos reservados. Beauty Secrets</p>
      </section>
-    </section>
+    </>
     
     );
 }
 
-export default Inicio;
+export default Home;
