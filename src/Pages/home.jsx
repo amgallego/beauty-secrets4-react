@@ -10,7 +10,7 @@ function App() {
         <Menu/>
         <Home/>
         </>
-    )
+    );
 }
 
 export default App;

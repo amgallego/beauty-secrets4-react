@@ -1,16 +1,16 @@
-import {Link, Router } from "react-router-dom";
+import {Link} from "react-router-dom";
 import "./menu.css";
 import logo from "../../recursos/img/logo.png"
 import carrito from "../../recursos/img/carrito.png"
 import lupa from "../../recursos/img/lupa.png"
 
 function Menu() {
-  
+
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark  fixed-top opacity-2">
 
-        <a className="navbar-brand" href="index.html"><img className="log" src={logo}/></a>
+        <Link to="index" className="navbar-brand" href="index.html"><img className="log" src={logo}/></Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -18,33 +18,33 @@ function Menu() {
         <div className="collapse navbar-collapse bg-dark" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="index.html">Inicio <span className="sr-only">(current)</span></a>
+              <Link to="index" className="nav-link" href="index.html">Inicio <span className="sr-only">(current)</span></Link>
             </li>
             <li className="nav-item dropdown bg-dark">
-              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <Link to="nuestros cursos" className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Nuestros Cursos
-              </a>
+              </Link>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <Router><Link to="Cursos" className="dropdown-item" >Cursos</Link></Router>
-                <a className="dropdown-item" href="cuidadocapilar.html">Cuidado Capilar</a>
-                <a className="dropdown-item" href="cuidadofacial.html">Cuidado Facial</a>
-                <a className="dropdown-item" href="maquillaje.html">Maquillaje</a>
+                <Link to="cursos" className="dropdown-item" href="cursos.html">Cursos </Link>
+                <Link to="cuidado capilar" className="dropdown-item" href="cuidadocapilar.html">Cuidado Capilar</Link>
+                <Link to="cuidado facial" className="dropdown-item" href="cuidadofacial.html">Cuidado Facial</Link>
+                <Link to="maquillaje" className="dropdown-item" href="maquillaje.html">Maquillaje</Link>
               </div>
             </li>
             <li className="nav-item dropdown bg-dark">
-              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <Link to="ingresa" className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 ingresa
-              </a>
+              </Link>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a className="dropdown-item" href="iniciarsesion.html">Iniciar Sesion</a>
-                <a className="dropdown-item" href="registrate.html">Registrate</a>
+                <Link to="iniciar sesion" className="dropdown-item" href="iniciarsesion.html">Iniciar Sesion</Link>
+                <Link to="registrate" className="dropdown-item" href="registrate.html">Registrate</Link>
               </div>
             </li>
             <li className="nav-item bg-dark">
-              <a className="nav-link" href="contactenos.html">Contactenos</a>
+              <Link to="contactenos" className="nav-link" href="contactenos.html">Contactenos</Link>
             </li>
             <li className="nav-item ">
-              <a className="nav-link" href="compras.html"><img src={carrito} height="20px" /></a>
+              <Link to="compras" className="nav-link" href="compras.html"><img src={carrito} height="20px" /></Link>
             </li>
           </ul>
           <form className="form-inline my-2 my-lg-0">
