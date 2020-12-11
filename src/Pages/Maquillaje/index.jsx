@@ -1,4 +1,3 @@
-import "./maquillaje.css";
 import Menu from "../../components/Menu";
 import Imagen6 from "../../recursos/img/ImagenP6.png"
 import Video6 from "../../recursos/img/VideoP6.png"

@@ -1,4 +1,3 @@
-import "./compras.css";
 import Menu from "../../components/Menu";
 import Ultima from "../../recursos/img/ultima imagen.png"
 import Video6 from "../../recursos/img/VideoP6.png"

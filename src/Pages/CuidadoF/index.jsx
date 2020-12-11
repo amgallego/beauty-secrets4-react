@@ -1,4 +1,3 @@
-import "./cuidadof.css";
 import Menu from "../../components/Menu";
 import Imagen4 from "../../recursos/img/ImagenP4.png"
 import Video4 from "../../recursos/img/VideoP4.png"

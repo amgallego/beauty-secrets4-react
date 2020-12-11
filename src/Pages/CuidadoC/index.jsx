@@ -1,4 +1,3 @@
-import "./cuidadoc.css";
 import Menu from "../../components/Menu";
 import Imagen5 from "../../recursos/img/ImagenP5.png"
 import Video5 from "../../recursos/img/VideoP5.png"
