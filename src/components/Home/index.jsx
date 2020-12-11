@@ -145,9 +145,9 @@ function Home() {
         </div>
       </section>
       <hr />
-      <section className="pt-1">
+      <div className="pt-1">
         <p className="text-center">©2020 Todos los derechos reservados. Beauty Secrets</p>
-      </section>
+      </div>
     </>
 
   );
