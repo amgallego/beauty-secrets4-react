@@ -1,0 +1,91 @@
+.container1 {   
+    background: url(../../recursos/img/holaaa.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.text-center {
+    text-align: center!important;
+}
+.modal-content {
+    opacity: .85;
+    padding: 0 20px;
+    box-shadow: 0px 0px 3px #848484;
+}
+.main-section{
+    margin:0 auto;
+    margin-top:25%;
+    padding: 0;
+}
+.user-img img {
+    height: 100px;
+    box-shadow: 0px 0px 3px #848484;
+    border-radius: 50%;
+}
+.user-img {
+    margin-top: -20px;
+    margin-bottom: 35px;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.form-group input {
+    height: 42px;
+    font-size: 18px;
+    border: 0;
+    padding-left: 54px;
+    border-radius: 5px;
+}
+.button, .input {
+    overflow: visible;
+}
+button, input {
+    overflow: visible;
+}
+.fomr{
+    display: block;
+}
+.form-group input{
+    height: 42px;
+    font-size: 18px;
+    border:0;
+    padding-left: 54px;
+    border-radius: 5px;
+}
+
+.form-group::before{
+    font-family: "Font Awesome\ 5 Free";
+    position: absolute;
+    left: 28px;
+    font-size: 22px;
+    padding-top:4px;
+}
+
+.form-group#user-group::before{
+    content: "\f007";
+}
+
+.form-group#contrasena-group::before{
+    content: "\f023";
+}
+button, select {
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.a {
+    width: 60%;
+    margin: 5px 0 25px;
+}
+.forgot{
+    padding: 5px 0;
+}
+
+.forgot a{
+    color: white;
+}
+
+

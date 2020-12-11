@@ -1,6 +1,7 @@
 import Fondo from "../components/Fondo"
-import Home from "../components/Home"
 import Menu from "../components/Menu"
+import Home from "../components/Home"
+
 
 
 function App() {

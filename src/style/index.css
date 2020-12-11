@@ -6,6 +6,10 @@
     box-sizing: border-box;
     list-style: none;
 }
+body{
+    font-family: 'Raleway', sans-serif  !important;
+
+}
 root{
     --dark: #1a1a1a;
     --white: #ffffff;
@@ -13,7 +17,14 @@ root{
     --gold: #ecd5a7;
     --rose: #ff0080; 
 }
-body{
-    font-family: 'Raleway', sans-serif  !important;
-
+section {
+    padding: 6rem 0;
 }
+.mt-6{
+    margin-top: 4rem;
+}
+
+.mb-6 {
+    margin-bottom: 4rem;
+}
+

@@ -1,4 +1,4 @@
-# Conceptos básicos de React
+# beauty-secrets4-react
 
 Conceptos básicos para instalar y usar react
 

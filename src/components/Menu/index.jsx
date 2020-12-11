@@ -1,4 +1,4 @@
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./menu.css";
 import logo from "../../recursos/img/logo.png"
 import carrito from "../../recursos/img/carrito.png"
@@ -10,7 +10,7 @@ function Menu() {
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark  fixed-top opacity-2">
 
-        <Link to="index" className="navbar-brand" href="index.html"><img className="log" src={logo}/></Link>
+        <a className="navbar-brand" href="/"><img className="log" src={logo} /></a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -18,30 +18,30 @@ function Menu() {
         <div className="collapse navbar-collapse bg-dark" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <Link to="index" className="nav-link" href="index.html">Inicio <span className="sr-only">(current)</span></Link>
+              <a className="nav-link" href="/">Inicio <span className="sr-only">(current)</span></a>
             </li>
             <li className="nav-item dropdown bg-dark">
-              <Link to="nuestros cursos" className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Nuestros Cursos
-              </Link>
+              </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <Link to="cursos" className="dropdown-item" href="cursos.html">Cursos </Link>
-                <Link to="cuidado capilar" className="dropdown-item" href="cuidadocapilar.html">Cuidado Capilar</Link>
-                <Link to="cuidado facial" className="dropdown-item" href="cuidadofacial.html">Cuidado Facial</Link>
+                <Link to="cuidadoc" className="dropdown-item" href="cuidadocapilar.html">Cuidado Capilar</Link>
+                <Link to="cuidadof" className="dropdown-item" href="cuidadofacial.html">Cuidado Facial</Link>
                 <Link to="maquillaje" className="dropdown-item" href="maquillaje.html">Maquillaje</Link>
               </div>
             </li>
             <li className="nav-item dropdown bg-dark">
-              <Link to="ingresa" className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 ingresa
-              </Link>
+              </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <Link to="iniciar sesion" className="dropdown-item" href="iniciarsesion.html">Iniciar Sesion</Link>
+                <Link to="iniciarsesion" className="dropdown-item" href="iniciarsesion.html">Iniciar Sesion</Link>
                 <Link to="registrate" className="dropdown-item" href="registrate.html">Registrate</Link>
               </div>
             </li>
             <li className="nav-item bg-dark">
-              <Link to="contactenos" className="nav-link" href="contactenos.html">Contactenos</Link>
+              <Link to="contactanos" className="nav-link" href="contactenos.html">Contactenos</Link>
             </li>
             <li className="nav-item ">
               <Link to="compras" className="nav-link" href="compras.html"><img src={carrito} height="20px" /></Link>
